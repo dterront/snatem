@@ -1,0 +1,209 @@
+
+BODY {
+	font-family : Verdana;
+	font-size : 8px;
+	margin : 0px 0px;
+	background-attachment : fixed;
+	scrollbar-track-color : #6495ED;
+	scrollbar-face-color : #073385;
+	scrollbar-3dlight-color : Teal;
+	scrollbar-darkshadow-color : Navy;
+	border-right-color : Black;
+	border-right-style : ridge;
+	border-right-width : thin;
+	border-left : thin ridge Black;
+	scrollbar-highlight-color : #073385;
+	scrollbar-shadow-color : Teal;
+	scrollbar-base-color : Navy;
+	background-position : 50px;
+	background : url(images/tex9.gif);
+}
+
+
+a.lienF
+{
+color:#800000;
+text-decoration:none;
+}
+a.lienF:hover
+{
+color:#FFFFFF;
+background: #800000
+} 
+
+a.lienFb
+{
+color:#000000;
+text-decoration:none;
+}
+a.lienFb:hover
+{
+color:#FFFFFF;
+background: #800000
+} 
+
+a.lienD
+{
+color:#FC4912;
+text-decoration:none;
+}
+a.lienD:hover
+{
+color:#FFFFFF;
+background: #FC4912
+} 
+
+a.lienDb
+{
+color:#000000;
+text-decoration:none;
+}
+a.lienDb:hover
+{
+color:#FFFFFF;
+background: #FC4912
+} 
+
+a.lienSIa
+{
+color:#008000;
+text-decoration:none;
+}
+a.lienSIa:hover
+{
+color:#FFFFFF;
+background: #008000
+} 
+
+a.lienSIb
+{
+color:#000000;
+text-decoration:none;
+}
+
+a.lienSIb:hover
+{
+color:#FFFFFF;
+background: #008000
+ }
+
+
+
+a.lienCGa
+{
+color:#0000C0;
+text-decoration:none;
+}
+a.lienCGa:hover
+{
+color:#FFFFFF;
+background: #0000C0
+} 
+
+a.lienCGb
+{
+color:#000000;
+text-decoration:none;
+}
+
+a.lienCGb:hover
+{
+color:#FFFFFF;
+background: #0000C0
+ }
+
+
+a.lienLa
+{
+color:#C000C0;
+text-decoration:none;
+}
+a.lienLa:hover
+{
+color:#FFFFFF;
+background: #C000C0
+} 
+
+a.lienLb
+{
+color:#000000;
+text-decoration:none;
+}
+
+a.lienLb:hover
+{
+color:#FFFFFF;
+background: #C000C0
+ }
+
+a.lienCOa
+{
+color:#0095C0;
+text-decoration:none;
+}
+a.lienCOa:hover
+{
+color:#FFFFFF;
+background: #0095C0
+} 
+
+a.lienCOb
+{
+color:#000000;
+text-decoration:none;
+}
+
+a.lienCOb:hover
+{
+color:#FFFFFF;
+background: #0095C0
+ }
+
+
+a.lienARa
+{
+color:#FF0000;
+text-decoration:none;
+}
+a.lienARa:hover
+{
+color:#FFFFFF;
+background: #FF0000
+} 
+
+a.lienARb
+{
+color:#000000;
+text-decoration:none;
+}
+
+a.lienARb:hover
+{
+color:#FFFFFF;
+background: #FF0000
+ }
+
+a.lienDIa
+{
+color:#E24898;
+text-decoration:none;
+}
+a.lienDIa:hover
+{
+color:#FFFFFF;
+background: #E24898
+} 
+
+a.lienDIb
+{
+color:#000000;
+text-decoration:none;
+}
+
+a.lienDIb:hover
+{
+color:#FFFFFF;
+background: #E24898
+ }
+
+.initial{background : url(images/tex-blanc.gif)}
