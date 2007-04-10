@@ -1,0 +1,185 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Menu SNATEM</title>
+		<link href="./include/menu.css"../templates/rhuk_solarflare_ii/css/template_css.css" rel="stylesheet" type="text/css">
+		<SCRIPT language="JavaScript" type="text/javascript" src="include/functions.js"></script>
+	</head>
+	
+	<body>
+		<div id="left_inner">
+			<div class="moduletableVisible" id="DivGeneral" >
+				<h3>
+					Menu principal				
+				</h3>
+			
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tbody>
+						<tr align="left">
+							<td>
+								<a href="accueil.htm" target="mainFrame" class="mainlevel">
+									Instructions
+								</a>
+							</td>
+						</tr>
+						<tr align="left">
+							<td>
+								<a href="rechercheCarnet.htm" target="mainFrame" class="mainlevel">
+									Carnet d'adresses</a>
+							</td>
+						</tr>
+						<tr align="left">
+							<td>
+								<a href="http://localhost/joomlaSnatem/index.php?option=com_content&amp;task=category&amp;sectionid=3&amp;id=7&amp;Itemid=25" class="mainlevel">
+									Rechercher</a>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>		
+			</div>
+			
+<!-- Div pour le menu d'un utilisateur ecoutant -->
+			<div class="moduletable" id="DivUtilisateur">
+				<h3>
+					Menu ECOUTANT </h3>
+			
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tbody>
+						<tr align="left">
+							<td>
+								<a href="frameLow.htm" target="mainFrame" class="mainlevel">
+									Reception d'appels </a>
+							</td>
+						</tr>
+						<tr align="left">
+							<td>
+								<a href="recherche.htm" target="mainFrame" class="mainlevel">
+						    Rechercher specifique </a></td>
+						</tr>
+						<tr align="left">
+							<td>
+								<a href="recherche.htm" target="mainFrame" class="mainlevel">
+									Mon journal</a>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>		
+			</div>
+			
+<!-- Div pour le menu d'un coordonateur -->
+			<div class="moduletable" id="DivCoordonateur">
+				<h3>
+					Menu COORDONATEUR 
+				</h3>
+			
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tbody>
+						<tr align="left">
+							<td>
+								<a href="agenda.htm" target="mainFrame" class="mainlevel">
+									Recherche specifique </a>
+							</td>
+						</tr>
+						<tr align="left">
+							<td>
+								<a href="agenda.htm" target="mainFrame" class="mainlevel">
+									Agenda</a>
+							</td>
+						</tr>
+
+					</tbody>
+				</table>		
+			</div>
+			
+<!-- Div pour le menu login -->			
+			<div class="moduletableVisible" id="DivLogin">
+				<h3>
+					Enregistrement 
+				</h3>
+				<div id="DivLoginContent" class="subDivContent">
+					<form action="" method="post" name="formLogin">
+					
+						<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td>
+										<label for="mod_login_username">
+											Profil
+										</label>
+										<br>
+										<select name="menuProfil" class="inputbox" id="menuProfil" >
+											<option>Ecoutant</option>
+											<option>Coordonateur</option>
+										</select>
+										<br>
+										<label for="mod_login_username">
+											Poste
+										</label>
+										<br>
+										<select name="menuPoste" class="inputbox">
+											<option>1001</option>
+											<option>1002</option>
+											<option>1003</option>
+											<option>1004</option>
+											<option>1005</option>
+											<option>1006</option>
+											<option>1007</option>
+											<option>1008</option>
+										</select>                    
+										<br>                    
+										<label for="mod_login_username">
+											Nom d'utilisateur 
+										</label>								
+										<br>
+										<input name="tfUsername" id="mod_login_username" class="inputbox" alt="username" size="10" type="text">
+										<br>
+										<label for="mod_login_password">
+											Mot de passe			
+										</label>
+										<br>
+										<input id="mod_login_password" name="tfPassword" class="inputbox" size="10" alt="password" type="password">
+										<br>
+										
+										
+										<br>
+										<input name="submitLogin" type="button" id="submitLogin" onClick="javascript:atentionAuButtonLogin();" class="button" value="Se connecter">
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					
+					</form>
+				</div>
+			</div>
+			
+<!-- Div pour le menu logout -->			
+			<div class="moduletable" id="DivLogout">
+				<h3>
+					Enregistrement 
+				</h3>
+				<div id="DivLogoutContent" class="subDivContent">
+					<form action="http://localhost/joomlaSnatem/index.php" method="post" name="login">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td>
+									<label for="mod_login_username">
+									</label><label for="mod_login_remember"></label>
+									<br>
+									<input name="submitLogout" type="button" id="submitLogout" value="Se deconnecter" class="button" onClick="javascript:atentionAuButtonLogout();">
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					
+					</form>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Qualit&eacute;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+p.style29 {
+font-size:12.0pt;
+font-family:"Times New Roman";
+}
+body {
+	background-color: #F2EDE6;
+}
+.style18 {font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+.style21 {font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
+-->
+</style>
+<SCRIPT language="JavaScript" type="text/javascript" src="include/functions.js">
+
+</script>
+
+<script LANGUAGE="JavaScript">var winMain=window.opener;
+
+</script>
+
+</head>
+<body onBlur="javascript:window.close(true);">
+
+<form name="formOrientation" method="post" action="">
+  <table width="243" border="0" >
+    <tr  > 
+      <td width="24"></td>
+      <td width="209"></td>
+    </tr>
+    <tr  > 
+      <td colspan="2"><span class="style21">Service departamental</span></td>
+    </tr>
+    <tr  > 
+      <td><input name="rbOrientation" type="radio" onClick="javascript:writeChecked(objRB);window.close();" value="ASE"></td>
+      <td><span class="style21">ASE</span></td>
+    </tr>
+    <tr  > 
+      <td><input name="rbOrientation" type="radio" onClick="javascript:writeChecked(objRB);window.close();" value="PMI"></td>
+      <td><span class="style21">PMI</span></td>
+    </tr>
+    <tr  > 
+      <td><input name="rbOrientation" type="radio" onClick="javascript:writeChecked(objRB);window.close();" value="Polyvalence de secteur"></td>
+      <td><span class="style21">Polyvalence de secteur</span></td>
+    </tr>
+    <tr  > 
+      <td><input name="rbOrientation" type="radio" onClick="javascript:writeChecked(objRB);window.close();" value="Dispositif telephonique departamental"></td>
+      <td><span class="style21">Dispositif telephonique departamental</span></td>
+    </tr>
+    <tr  > 
+      <td><input name="rbOrientation" type="radio" onClick="javascript:writeChecked(objRB);window.close();" value="Defenseur des enfants"></td>
+      <td><span class="style21">Defenseur des enfants</span></td>
+    </tr>
+    <tr  > 
+      <td colspan="2"> <span class="style21">Instances judiciaires</span></td>
+    </tr>
+    <tr  > 
+      <td><input name="rbOrientation" type="radio" onClick="javascript:writeChecked(objRB);window.close();" value="Avocat / pour enfants"></td>
+      <td><span class="style21">Avocat / pour enfants</span></td>
+    </tr>
+    <tr  > 
+      <td><input name="rbOrientation" type="radio" onClick="javascript:writeChecked(objRB);window.close();" value="Juge des enfants"></td>
+      <td><span class="style21">Juge des enfants</span></td>
+    </tr>
+    <tr  > 
+      <td><input name="rbOrientation" type="radio"  onClick="javascript:writeChecked(objRB);window.close();" value="PJJ"></td>
+      <td><span class="style21">PJJ</span></td>
+    </tr>
+  </table>
+
+<table width="155" border="0">
+  <tr>
+    <td width="84"><input name="continuer" type=button class="style18" id="continuer" onClick="javascript:window.close();" value="Continuer">  
+    </td>
+  </tr>
+</table>
+
+</form>
+
+<script LANGUAGE="JavaScript">
+	var objRB = document.formOrientation.rbOrientation;
+	loadChecked(objRB);
+	
+	objRB.value=LireCookie(LireCookie('callingField'));
+	//document.formQualite.choosenValue.value=LireCookie('qualiteAppelant');
+</script>
+
+<p >&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
